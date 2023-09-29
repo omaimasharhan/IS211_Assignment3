@@ -1,10 +1,10 @@
 import argparse
 import csv
 import re
-from collections import defaultdict
-from datetime import datetime
 import requests
 import os
+from collections import defaultdict
+from datetime import datetime
 
 def download_log_file(url):
     try:
